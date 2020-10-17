@@ -1,4 +1,5 @@
 import React from "react";
+import { ToDo } from "./ToDo";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -19,6 +20,7 @@ export function Home() {
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
 				love!
 			</p>
+			<ToDo />
 		</div>
 	);
 }

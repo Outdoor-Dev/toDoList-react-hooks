@@ -1,8 +1,6 @@
-import React, {useState} from "react";
-import ReactDOM from "react-dom";
+import React, { useState } from "react";
 
-
-export function Todo() {
+export const ToDo = () => {
 	const [test, setTest] = useState(["Paolo", "Monica", "Paolo"]);
 	const [color, setColor] = useState("Green");
 	const [input, setInput] = useState();
@@ -38,4 +36,4 @@ export function Todo() {
 			</div>
 		</>
 	);
-}
+};
